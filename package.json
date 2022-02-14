@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@epam/loveship": "^4.5.4",
+    "@epam/promo": "^4.5.4",
+    "@epam/uui": "^4.5.4",
+    "@epam/uui-components": "^4.5.4",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
