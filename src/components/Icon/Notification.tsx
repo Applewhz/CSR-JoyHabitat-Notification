@@ -8,8 +8,6 @@ import BasicNotificationCardExample from './NotificationCard';
 import { IDropdownToggler } from '@epam/uui';
 
 export default function BasicIconContainerExample() {
-    
-    const [showNotification, setShowNotification] = useState(false);
 
     const renderDropdownBody = (props: DropdownBodyProps) => {
         return (
@@ -28,6 +26,7 @@ export default function BasicIconContainerExample() {
         renderBody={ renderDropdownBody }
         renderTarget={ (props: IDropdownToggler) => <IconButton icon={EmptyNotification} { ...props } /> }
         />
+        <BasicNotificationCardExample />
     </>
   );
 }
